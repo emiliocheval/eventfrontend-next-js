@@ -9,7 +9,7 @@ const NavBar = () => {
   const { isSignedIn } = useUser();
 
   return (
-    <nav className="bg-gray-600 bg-opacity-50 p-4 flex justify-between items-center">
+    <nav className="bg-gray-600  p-4 flex justify-between items-center">
       <Link href="/">
         <div className="text-white text-lg font-bold cursor-pointer">
           Event Finder
